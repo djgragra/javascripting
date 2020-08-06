@@ -1,2 +1,2 @@
-var float = 1.2;
-console.log(float);
+var example = 123456789;
+console.log(example);
