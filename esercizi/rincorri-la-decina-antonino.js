@@ -1,14 +1,20 @@
 var i = 0;
 var x = 0;
+var raw = "";
 do {
  i++;
  x++;
- if (x < 10){
-   var raw = ("\n"+i);
+if(i == 1) {
+  raw = i;
+}
+else
+{
+  raw = raw + " " + i;
+}
+ if (x >= 10){
    console.log(raw);
+   raw = "";
    x = 0;
-} else {
-  console.log(i);
 }
 } while (i < 100);
 
