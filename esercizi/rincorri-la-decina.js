@@ -1,14 +1,14 @@
 //var x = 1;
 //var limit = 100
 
-var s = '';
+//var s = '';
 var i = 0
 do {
  i++;
-  s += i + ' ';
-  console.log(s);
+  //s += i + ' ';
+  console.log(i);
 
-} while (i < 10);
+} while (i < 100);
 
 
 
