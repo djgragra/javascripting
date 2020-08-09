@@ -1,4 +1,5 @@
-var s = 3;
+var hello = 'hello';
+    hello += ' world';
+    hello += ' blah';
 
-s += s + 3;
-console.log(s);
+console.log(hello);
