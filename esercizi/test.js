@@ -1,4 +1,22 @@
-var x = 5
-var y = 6
+var tabella = '';
+var spazi;
+var num = 17;
 
-console.log(x + y);
+for(var i=1; i<=num*2; i+=2){
+  if (num >= i)
+  spazi = num-i;
+  else
+  spazi = i-num;
+
+    for(var j=1; j<=spazi/2; j+=1){
+    tabella+=' ';
+}
+
+    for (var j=1; j<=num-spazi; j+=1){
+      tabella+='x';
+}
+
+tabella+='\n';
+}
+
+console.log(tabella);
