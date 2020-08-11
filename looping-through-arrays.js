@@ -5,7 +5,7 @@ var pets = ['cat', 'dog', 'rat'];
 //}
 
 pets.forEach(function (item, index, arrey) {
-  arrey[index] = item + 's';
+  pets[index] = item + 's';
 });
 
 
