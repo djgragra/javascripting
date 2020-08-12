@@ -1,9 +1,5 @@
-var x = 7;
-var y = 0;
-for (var i = 0; i < 10; i++) {
-  y+=i;
+var a = ['casa', 'albero', 'mare']
 
-y+='\n';
-}
+var x = Math.floor(Math.random() * 3);
 
-console.log(y);
+console.log(a[x]);
