@@ -1,4 +1,4 @@
-var x = 3
-y = x ** x
+var arr = [1, 2, 3];
+var max = Math.max(...arr);
 
-console.log(y);
+console.log(max);
