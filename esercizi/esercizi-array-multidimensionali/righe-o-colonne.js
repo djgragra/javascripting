@@ -11,16 +11,31 @@ for (let i = 0; i < matrix.length; i++) { //matrix.length corrisponde a N
   }
 }
 
-var R = new Array(N);
-var C = new Array(M);
-
-
-
-
-
-
-
 console.log(matrix);
 console.log('Sum is ' + sum);
+
+var R = new Array(N);
+var C = new Array(M);
+var sumR0 = 0;
+var sumR1 = 0;
+
+//Somma delle righe
+for (let i = 0; i < matrix.length; i++) {
+  for (let j = 0; j < matrix[i].length; j++) {
+    if (i == 0) {
+    sumR0 += matrix[i][j];
+    R[0] = sumR0;
+  } else {
+    sumR1 += matrix[i][j];
+    R[1] = sumR1;
+   }
+ }
+}
+
+//Somma delle colonne
+for (let i = 0; i < matrix[0].length; i++) {
+  C[i] = matrix[0][i] + matrix[1][i];
+}
+
 console.log(R);
 console.log(C);

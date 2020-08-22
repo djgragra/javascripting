@@ -12,3 +12,4 @@ for (let i = 0; i < matrix.length; i++) { //matrix.length corrisponde a N
 }
 console.log(matrix);
 console.log('Sum is ' + sum);
+console.log(matrix[0].length);
